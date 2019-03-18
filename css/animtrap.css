@@ -3545,6 +3545,11 @@ body.single-toggle .drop:nth-child(10) {
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */ }
 
+element.style {
+    background: url(img/red.jpg);
+    background-size: cover;
+    min-width: 300px;
+}
 /* SPEECH BUBBLES */
 /* Bubble Top */
 .anim-hover-bubble-top {
