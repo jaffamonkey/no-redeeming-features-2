@@ -3548,8 +3548,8 @@ body.single-toggle .drop:nth-child(10) {
 element.style {
     background: url(img/red.jpg);
     background-size: cover;
-    min-width: 300px;
-    min-height:auto;
+    width: 100%;
+    height: auto;
 }
 /* SPEECH BUBBLES */
 /* Bubble Top */
