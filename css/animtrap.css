@@ -3545,12 +3545,6 @@ body.single-toggle .drop:nth-child(10) {
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */ }
 
-element.style {
-    background: url(img/red.jpg);
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
 /* SPEECH BUBBLES */
 /* Bubble Top */
 .anim-hover-bubble-top {
@@ -5218,6 +5212,8 @@ element.style {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
 
 .anim-lightning-normal {
+  max-width: 100%;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -5230,6 +5226,8 @@ element.style {
   z-index: -2; }
 
 .anim-lightning-flash {
+  max-width: 100%;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
