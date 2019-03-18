@@ -11,6 +11,13 @@
   height: 100%;
   z-index: 2; }
 
+
+div.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
 .anim-rain.back-row {
   display: none;
   z-index: 1;
